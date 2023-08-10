@@ -1,0 +1,38 @@
+.social-media i{
+    font-size: x-large;
+    margin-right: 9px;
+    color: #fff;
+    margin-top: 0px;
+  }
+  
+  .social-media :hover{
+    cursor: pointer;
+  }
+  
+  footer{
+    margin-top: 90px;
+    background-color: #00394f ;
+    color: white;
+    padding: 20px;
+  }
+
+  .copyright{
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .footer-info{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .map{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .address{
+    margin-left: 40px;
+  }

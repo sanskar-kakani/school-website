@@ -1,0 +1,48 @@
+.bg-img-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+  }
+  
+  .bg-img-div {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #712cf9;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.fda.gov/files/CDER-whatsnew.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .en{
+    margin: 10px;
+    margin-bottom: 70px;
+  }
+
+  .en h1{
+    z-index: 1;
+  }
+
+  .card{
+    margin: 20px;
+    height: 500px;
+  }
+
+  .card a:hover{
+    background-color: rgb(111, 111, 233);
+  }
+
+  .learn-more{
+    width: 100px;
+    text-align: center;
+  }

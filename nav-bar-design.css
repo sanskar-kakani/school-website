@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items{
+    display: inline-block;
+    list-style: none;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-items :hover{
+    background-color: white;
+    color: #712cf9;
+    padding: 7px;
+    border-radius: 13px;
+}
+
+.nav-ul{
+    background-color: #712cf9;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.logo{
+    margin-left: 20px;
+}
